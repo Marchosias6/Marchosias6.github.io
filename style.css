@@ -186,6 +186,7 @@ h1{
 .bigbox-button{
 	margin-top: 10%;
 	margin-bottom: 10%;
+	position:bottom;
 }
 
 .bigbox-button .button{
@@ -193,11 +194,11 @@ h1{
 	vertical-align: middle;
 	margin-left:8.33%;
 }
+
 .article{
-	width: 50%;
 	margin-left: 5%;
 	margin-right: 5%;
-	
+	height:100%;
 }
 
 h2{
