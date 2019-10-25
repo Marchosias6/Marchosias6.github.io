@@ -1,0 +1,378 @@
+/*GENERAL*/
+
+*{box-sizing: border-box;}
+
+
+
+/*carousel*/
+.center{
+	
+	width: 1500px;
+	margin: auto;
+	padding:80px;
+}
+
+.affichecarousel img:hover{
+	margin: center;
+	cursor: pointer;
+	border: solid white 10px;
+	box-shadow: none;
+}
+
+.affichecarousel > img{
+	width:80%;
+	margin:1px;
+	border-radius: 30px; 
+	box-shadow: 5px 0px 6px 1px rgba(0, 0, 0, 20%);
+}
+.slick-arrow:before{
+
+	color:black;
+	opacity: 0.5;
+	width: 60px;
+}
+
+.flux{
+	max-width: 1280px;
+	margin:auto;
+}
+
+html, body{
+	margin: 0;
+	height: 100%;	
+}
+
+/*header*/
+
+.Parent_festival{
+	
+	position: relative;
+	height: 100%;
+	overflow: hidden;
+}
+
+.Le_Festival_deventure{
+  	width: 100%;
+  	object-fit: cover;
+ }
+header{
+	position: absolute;
+	overflow: hidden;
+	background-color:rgba(52, 79, 102, 0.45);
+	width: 100%;
+	height: 8vh;
+	left :0px;
+	top: 0px;
+	z-index: 1;	
+}
+.navbar{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	padding-left: 30vh ;	
+	padding-right: 35vh ;
+	margin: auto;
+	line-height: 8vh;
+}
+
+
+.sticky {
+  	position: fixed;
+  	top: 0;
+  	width: 100%;	
+}
+
+.unopacity{
+	transition: 0.4s;
+	background-color:rgba(52, 79, 102, 0.45);
+}
+.opacity{
+	transition: 0.4s;
+	background-color:rgba(52, 79, 102, 1);
+}
+.logotxt{
+	position: absolute;
+	padding: 5px;
+	height: 8vh;
+	width: 10vw;
+	left :0px;
+	top: 0px;
+}
+.logooeil{
+	position: absolute;
+	padding: 5px;
+	width: 22vw;
+	height: 30vh;
+	right :-4vw;
+	top: -10vh;
+}
+
+	
+
+.navtext,[href]{
+	text-decoration: none;
+	color:white;
+	text-align: center;
+	font-size:1.2vw;
+	font-family:El Messiri;
+	font-weight: normal;
+	flex-grow: 1;
+	text-shadow: 4px 4px 6px rgba(0,0,0,20%);	
+}
+
+
+.navtxt:hover{
+	cursor: pointer;
+	background-color:rgba(107, 179, 169, 50%);
+}
+
+.prestxt{
+	position: absolute;
+	font-size:3vh;
+	font-family:Mukta;
+	color: white;
+	left: 0;
+	right: 0;
+	top:50vh;
+	height: 20vh;
+	text-shadow: 4px 4px 6px rgba(0,0,0,20%);
+	/*max-width: 800px;
+  	margin-left: 340px;*/
+}
+
+
+.txt{
+	margin-right: 15vw;
+}
+h1{
+	font-size:7vh;
+	font-family:El Messiri;	
+}
+
+
+/*GENERAL*/
+.bigbox{
+	display: flex;
+	margin-top: 100px;
+	margin-bottom: 100px;
+}
+
+.bigbox-image img{
+	width: 480px;
+	height: auto;
+	margin-right:5%;
+	margin-left:5%;
+}
+
+.article{
+	width: 50%;
+	margin-left: 5%;
+	margin-right: 5%;
+	
+}
+
+.tailleversion{
+	width: 50px;
+	height: 50px;
+	margin-right:4%;
+	margin-left:4%;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.bigbox-button{
+	margin-top: 10%;
+	margin-bottom: 10%;
+
+}
+
+.bigbox-button .button{
+
+	display: inline-block;
+	vertical-align: middle;
+	margin-left:8.33%;
+}
+
+h2{
+	text-align: center;
+	font-size:120px;
+	font-weight:bold;
+	font-family:El Messiri; 
+	color:#19568A;
+	overflow: hidden;
+	text-align: center;
+}
+
+h2:before,
+h2:after {
+  background-color: #19568A;
+  content: "";
+  display: inline-block;
+  height: 3px;
+  position: relative;
+  vertical-align: middle;
+  width: 50%;
+}
+
+h2:before {
+  right: 0.5em;
+  margin-left: -50%;
+}
+
+h2:after {
+  left: 0.5em;
+  margin-right: -50%;
+}
+
+
+h3{
+	text-align: left;
+	font-size:50px;
+	font-family:El Messiri; 
+	color:#19568A;
+}
+
+.button{
+	background-color:#6BB3A9;
+	border-radius: 30px;
+	border:none;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-left: 20px;
+	padding-right: 20px;
+	color: white;
+	font-size: 15px;
+	text-align: center;
+	font-family: El Messiri;
+}
+
+.button:hover{
+	cursor: pointer;
+	background-color: #81DBD0;
+}
+
+
+
+p{
+	color:#062743;
+	font-size: 20px;
+	font-family: Mukta;
+
+}
+
+.righttext{
+	text-align:right;
+}
+
+.lefttext{
+	text-align:left;
+}
+
+.butleft{
+	float:left;
+}
+
+.butright{
+	float:right;
+}
+
+.tvleft{
+	float:right;
+}
+
+
+
+/*footer*/
+
+footer{
+	margin-bottom: 0px;
+	width: 100%;
+	background-color:#344F66;
+	padding-bottom: 1px;
+}
+
+h4{
+	text-align: center;
+	font-size:35px;
+	font-family:Mukta; 
+	color:white;
+}
+
+footer h5{
+	text-align: left;
+	font-size:20px;
+	font-family:Mukta; 
+	color:white;
+	max-width: 400px;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+h6{
+	text-align: center;
+	font-size:15px;
+	font-family:Mukta; 
+	color:white;
+}
+
+.allcontacts{
+	display: flex;
+	justify-content: space-around;
+}
+
+.taillecontact{
+	width: 50px;
+	height: 50px;
+	margin-right:50px;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.mail{
+	border-radius: 30px;
+	border:none;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-left: 20px;
+	padding-right: 20px;
+	font-size: 15px;
+	text-align: center;
+	display: inline-block;
+	align-items: right;
+	margin:50px;
+	margin-bottom: 20px;
+	margin-left: 0px;
+}
+
+.contacts{
+	display: flex;
+	align-items: center;
+	flex-wrap: nowrap;
+.news .button{
+
+	padding-right: 88px;
+	padding-left: 88px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	margin:50px;
+	margin-top: 20px;
+	margin-left: 0px;
+}
+
+.news{
+	width: 250px;
+
+}
+
+.align{
+	margin-top: 50px;
+}
+.align2{
+	margin-top: 77px;
+}
+
+
+
+
+

@@ -3,6 +3,8 @@
 <head>
 	<meta charset="utf-8">
 	<title>Cinéma "Le Festival" de Bègles -</title>
+	<link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+  	<link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
 	<link href="https://fonts.googleapis.com/css?family=El+Messiri&display=swap" rel="stylesheet"> 
 	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
@@ -20,93 +22,112 @@
 	</header>
 	<div class="Parent_festival"> <!-- Image du festival -->
 		<img class="Le_Festival_deventure" src="ressource/photo/Le_Festival_deventure.png" alt="Festival error">
-		<div class="prestxt">
-			<h1>Cinéma "Le Festival" de Bègles</h1>
-			Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec et sapien gravida, accumsan ipsum vel, hendrerit orci. Duis condimentum risus ex, a posuere arcu condimentum in.
+		<div  class="prestxt">
+			<div class="flux">
+				<div class="txt">
+				<h1>Cinéma "Le Festival" de Bègles</h1>
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec et sapien gravida, accumsan ipsum vel, hendrerit orci. Duis condimentum risus ex, a posuere arcu condimentum in.
+				</div>
+			</div>
 		</div>
 	</div>
-
-	<div class="carousel">
-	    <div class="afficheCarousel"><img src="ressource/affiche/carousel/Asianim2.png" style="object-fit: cover;"></div>
-	    <div class="afficheCarousel"><img src="ressource/affiche/carousel/Frozen 2 event.png"></div>
-	    <div class="afficheCarousel"><img src="ressource/affiche/carousel/Marathon Star Wars.png"></div>
-	    <div class="afficheCarousel"><img src="ressource/affiche/carousel/Supercoop.png"></div>
-	    <div class="afficheCarousel"><img src="ressource/affiche/carousel/Mario Kart 8 tournoi.png"></div>
-	</div>
+	<div>
+		<h2 class="flux">Événements</h2>
+		<div class="center">
+	   	 	<a href="starwars.html"><div class="affichecarousel"><img src="ressource/affiche/carousel/Marathon Star Wars.jpg"></div></a>
+	    	<a href="asianim.html"><div class="affichecarousel"><img src="ressource/affiche/carousel/Asianim2.jpg"></div></a>
+	    	<a href="princess.html"><div class="affichecarousel"><img src="ressource/affiche/carousel/Frozen 2 event.jpg"></div></a>
+	    	<a href="supercoop.html"><div class="affichecarousel"><img src="ressource/affiche/carousel/Supercoop.jpg"></div></a>
+	    	<a href="mariokart.html"><div class="affichecarousel"><img src="ressource/affiche/carousel/Mario Kart 8 tournoi.jpg"></div></a>
+	  	</div>
+	  </div>
 		<section class="flux"> <!--a affiche-->
-				<h2>A l'affiche</h2>
+				<h2>À l'affiche</h2>
 			<article class="bigbox"><!--frozen 2-->
 				<div class="bigbox-image">
 					<img src="ressource/affiche/frozen.jpg">
 				</div>
 				<div class="article">
-					<h3>Frozen II</h3>
+					<h3 class="lefttext">Frozen II</h3>
 					<p class="lefttext">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec et sapien gravida, accumsan ipsum vel, hendrerit orci. Duis condimentum risus ex, a posuere arcu condimentum in. Sed placerat erat id augue hendrerit, vitae mollis erat sagittis. Curabitur at enim vel ex sollicitudin tincidunt id quis quam. Phasellus iaculis ex veliaculis tincidunt. Nullam in nunc mi.</p>
 					<div class="bigbox-button">
 						<img class="tailleversion" src="ressource/icone/2d.png">
 						<img class="tailleversion" src="ressource/icone/vf.png">
-						<button class="button" type="button">En savoir plus ...</button>
+						<a href="Savoir-plus-Frozen-2.html"><button class="button" type="button">En savoir plus ...</button></a>
 					</div>	
 				</div>
-			</article>	
-			<hr>
-			<article class="bigbox"><!--ad astra-->
-				<div class="article">
-					<h3>Ad Astra</h3>
-					<p class="righttext">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec et sapien gravida, accumsan ipsum vel, hendrerit orci. Duis condimentum risus ex, a posuere arcu condimentum in. Sed placerat erat id augue hendrerit, vitae mollis erat sagittis. Curabitur at enim vel ex sollicitudin tincidunt id quis quam. Phasellus iaculis ex veliaculis tincidunt. Nullam in nunc mi.</p>
-					<div class="bigbox-button">
-						<button class="button" type="button">En savoir plus ...</button>
-						<img class="tailleversion" src="ressource/icone/2d.png">
-						<img class="tailleversion" src="ressource/icone/vf.png">
-						<img class="tailleversion" src="ressource/icone/vo.png">
-					</div>
+		</article>	
+		<article class="bigbox"><!--ad astra-->
+			<div class="article">
+				<h3 class="righttext">Ad Astra</h3>
+				<p class="righttext">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec et sapien gravida, accumsan ipsum vel, hendrerit orci. Duis condimentum risus ex, a posuere arcu condimentum in. Sed placerat erat id augue hendrerit, vitae mollis erat sagittis. Curabitur at enim vel ex sollicitudin tincidunt id quis quam. Phasellus iaculis ex veliaculis tincidunt. Nullam in nunc mi.</p>
+				<div class="bigbox-button">
+					<a href="Savoir-+-Ad-Astra.html"><button class="button" type="button">En savoir plus ...</button></a>
+					<img class="tailleversion tvleft" src="ressource/icone/2d.png">
+					<img class="tailleversion tvleft" src="ressource/icone/vf.png">
+					<img class="tailleversion tvleft" src="ressource/icone/vo.png">
 				</div>
-				<div class="bigbox-image">
-					<img src="ressource/affiche/ad-astra.jpg">
-					
-				</div>
-			</article>			
-		</section>
-		<footer>
-			<div class="flux">
-				<div class="allcontacts">
-					<div class="news">
-						<h4>Newsletter</h4> 
-							<input class="mail" type="text" placeholder="Votre adresse..." name="mail">
-							<button class="button" type="button">Envoyer</button>
-					</div>
-					<div>
-						<h4>Réseaux sociaux</h4>
-						<div class="RS">
-							<img class="taillecontact" src="ressource/icone/insta.png">
-							<h5>@cinemalefestival</h5>
-						</div>
-						<div class="RS">
-							<img class="taillecontact" src="ressource/icone/facebook.png">
-							<h5>@cinemalefestival</h5>
-						</div>
-					</div>
-					<div>
-						<h4>Contacts</h4>
-						<div classe="contacts">
-							<img class="taillecontact" src="ressource/icone/tel.png">
-							<h5>09.51.99.04.80 / 05.56.51.76.60</h5>
-						</div>
-						<div classe="contacts">
-							<img class="taillecontact" src="ressource/icone/adresse.png">
-							<h5>Cinéma "Le Festival" 151 boulevard ALBERT 1er *(barrière de Bègles) 33130 Bègles</h5>
-						</div>
-						<div classe="contacts">
-							<img class="taillecontact" src="ressource/icone/mail.png">
-							<h5>contact@cinemalefestival.fr</h5>
-						</div>
-					</div>
+			</div>
+			<div class="bigbox-image">
+				<img src="ressource/affiche/ad-astra.jpg">
+			</div>
+		</article>			
+	</section>
+	<footer>
+		<div class="allcontacts flux" >
+			<div class="news">
+				<h4>Newsletter</h4> 
+				<input class="mail" type="text" placeholder="Votre adresse..." name="mail">
+				<button onclick="newsLetter()" class="button" type="button">Envoyer</button>
+			</div>
+			<div>
+				<h4>Réseaux sociaux</h4>
+				<div>
+					<img class="taillecontact align" src="ressource/icone/insta.png">
+					<h5 class="align2">@cinemalefestival</h5>
 				</div>
 				<div>
-					<h6>© 2012 Cinéma "Le Festival" de Bègles, tout droits réservés – Mentions légales - Icon made by Freepik from www.flaticon.com</h6>
+					<img class="taillecontact" src="ressource/icone/facebook.png">
+					<h5>@cinemalefestival</h5>
+
 				</div>
+			</div>
+			<div>
+				<h4>Contacts</h4>
+				<div classe="contacts">
+					<img class="taillecontact" src="ressource/icone/tel.png">
+						<h5>09.51.99.04.80 / 05.56.51.76.60</h5>
+				</div>
+				<div classe="contacts">
+					<img class="taillecontact" src="ressource/icone/adresse.png">
+					<h5>Cinéma "Le Festival" 151 boulevard ALBERT 1er *(barrière de Bègles) 33130 Bègles</h5>
+				</div>
+				<div classe="contacts">
+					<img class="taillecontact" src="ressource/icone/mail.png">
+					<h5>contact@cinemalefestival.fr</h5>
+					</div>
+				</div>
+			</div>
+			<div>
+				<h6>© 2012 Cinéma "Le Festival" de Bègles, tout droits réservés – Mentions légales - Icon made by Freepik from www.flaticon.com</h6>
 			</div>	
 		</footer>
-	<script src="nav.js"></script>
+
+<script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<script type="text/javascript" src="slick/slick.min.js"></script>
+<script type="text/javascript">
+	$(document).ready(function(){
+	      
+		$('.center').slick({
+			centerMode: true,
+			centerPadding: '60px',
+			slidesToShow: 3,
+			arrows:true
+		});
+	});
+</script>
+<script src="nav.js"></script>
+
 </body>
 </html>
